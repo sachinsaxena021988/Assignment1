@@ -8,7 +8,7 @@
 number =''
 
 #loop through the collection range fron 2000 to 3200
-for value in range(2000,3200):
+for value in range(2000,3201):
     if value % 7 == 0 and value % 5 != 0:
         #convert int to string 
         number +=str(value) +','
